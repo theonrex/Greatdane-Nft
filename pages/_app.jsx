@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+import  { AppProps } from "next/app";
 //css styles
 
 // import "bootstrap/dist/css/bootstrap.min.css";
@@ -28,6 +28,7 @@ const mumbaiChain = {
   },
   rpcUrls: {
     default: "https://rpc-mumbai.maticvigil.com",
+    public: "https://rpc-mumbai.maticvigil.com",
   },
   blockExplorers: {
     default: {
@@ -62,7 +63,7 @@ const wagmiClient = createClient({
   provider,
 });
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
       // Global settings:
