@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 // import { useForm } from "react-hook-form";
-import Favicon from "../public/images/favIcon.png";
+import Favicon from "../public/images/Favicon.png";
 //components
 import NavbarMenu from "../component/navbar";
 import LandingPage from "../component/LandingPage";
