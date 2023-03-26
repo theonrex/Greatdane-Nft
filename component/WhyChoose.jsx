@@ -13,9 +13,9 @@ function WhyChoose() {
 				<img src={Choose.src} alt="choose" />
 			</div>
 			<div className="col50 choose" data-aos="fade-up" data-aos-duration="3000">
-				<h1> Why you should choose CRAPPO</h1>
+				<h1> Why Great Dane NFts</h1>
 				<p>
-					Experience the next generation cryptocurrency platform. No financial
+					Experience the next generation Minting platform. No financial
 					borders, extra fees, and fake reviews.
 				</p>
 				<button className="why-Btn">

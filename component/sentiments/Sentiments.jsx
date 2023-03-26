@@ -5,7 +5,7 @@ import Statistics from './Statistics'
 
 function Sentiments() {
   return (
-    <div className='sentiments '>
+    <div className=' '>
         <Market/>
         <Statistics/>
         <Grow/>

@@ -9,9 +9,7 @@ function Market() {
         <img src={Cic.src} alt="circle" />
       </div>
       <header
-        data-aos="zoom-out"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
+  
       >
         Market sentiments, portfolio, and run the infrastructure of your choice
       </header>

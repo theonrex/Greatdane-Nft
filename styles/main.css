@@ -75,8 +75,8 @@
   width: 100%;
   margin-top: -4em;
   /* left: 5em;
-  float: left;
-  top: 0; */
+    float: left;
+    top: 0; */
 }
 
 .dogggnft {
@@ -164,7 +164,7 @@ svg {
     background-color: rgba(255, 255, 255, 0.212);
     width: 100%;
     font-size: 4vw !important;
-    padding: 3px 0 3px 7em;
+    padding: 3px 0 3px 8em;
   }
   .header-text {
     font-size: 1.5em;
@@ -510,8 +510,8 @@ svg {
     font-size: 1.5em;
   }
   .ESTIMATED h1 {
-    font-size: 7vw !important;
-    font-weight: 700;
+    font-size: 1em !important;
+    font-weight: 400;
   }
 }
 /*CryptoActive*/
@@ -699,25 +699,25 @@ svg {
 @media screen and (max-width: 533px) {
   .CryptoActive header {
     width: 95%;
-    padding-top: 8em;
+    padding-top: 2em;
     font-size: 1.6em;
   }
 }
 @media screen and (max-width: 410px) {
   .CryptoActive header {
     width: 96%;
-    padding-top: 9em;
+    padding-top: 2em;
   }
 }
 @media screen and (max-width: 325px) {
   .CryptoActive header {
     width: 100%;
-    padding-top: 9em;
+    padding-top: 2em;
   }
 }
 @media screen and (max-width: 358px) {
   .CryptoActive header {
-    padding-top: 12em;
+    padding-top: 2em;
   }
 }
 /*sentiments*/
