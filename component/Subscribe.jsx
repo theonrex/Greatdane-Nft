@@ -41,8 +41,11 @@ function Subscribe() {
               <div className="col-lg-2">
                 <div className="button_box">
                   <button className="subscribe-btn">
-                    <a href="/https://greatdaneai.com/" className="">
-                      Great Ai
+                    <a
+                      href="https://github.com/freshcoins/Smart-Contract-Audits/blob/main/GreatDaneAI_0x18F01f43F3aa33833f4Ec8a9B9218D862BA5D8E8.pdf"
+                      className=""
+                    >
+                      Smart Contract Audits
                     </a>
                   </button>
                 </div>
