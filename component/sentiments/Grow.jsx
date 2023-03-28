@@ -1,5 +1,5 @@
 import React from 'react'
-import Table from "../../public/images/greatenft.jpg";
+import greatai from "../../public/images/greatai.png";
 import Oshape from '../../public/images/oshape.png'
 
 function Grow() {
@@ -24,7 +24,7 @@ function Grow() {
 						</button>
 					</div>
 					<div className="col50 grow-img">
-						<img src={Table.src} alt="" />
+						<img src={greatai.src} alt="" />
 					</div>
 				</section>
 			</div>

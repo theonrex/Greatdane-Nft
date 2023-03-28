@@ -17,9 +17,9 @@ function LandingPage() {
               data-aos-easing="linear"
               data-aos-duration="3000"
             >
-               SAFE MINT
+              SAFE MINT
             </span>
-            For the Great Dane NFTs
+            “Great Dane AI NFTs”
           </header>
           <h1
             className="header-text"
@@ -29,8 +29,12 @@ function LandingPage() {
             Fastest & secure platform to invest in NFTs
           </h1>
           <p className="landing-p" data-aos="fade-up" data-aos-duration="3000">
-            Mint your Favorite NFTS, trusted by 10M wallets with over $3
-            million in transactions.
+            Find and mint stunning artificially intelligent generated NFTS
+            trusted by 10 million wallets with over $3 million in transactions
+          </p>
+<hr />          <p>
+            What does the triad for free button do, can the try it for free
+            button give them a free membership card?
           </p>
           <button
             className="landing-btn"

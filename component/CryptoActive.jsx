@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import cryptoData from "../Props/crypto"; //imported props
 
+
 function CryptoActive(props) {
 	const [active, setActive] = useState(1);
 
@@ -19,7 +20,15 @@ function CryptoActive(props) {
 				data-aos-easing="ease-in-sine"
 			>
 				{cryptoData.map((item, index) => {
-					const { coinName, coin, id, coinText, coinDetails, image } = item;
+					const {
+            coinName,
+            coin,
+            id,
+            coinText,
+            coinDetails,
+            image,
+            contactAddressLogo,
+          } = item;
 					return (
             <aside
               onClick={() => setActive(id)}
@@ -30,10 +39,11 @@ function CryptoActive(props) {
               <div className="coin-image" data-aos="zoom-in">
                 <img src={image.src} alt="btc" />
               </div>
-              <h1 className="coinText">
+              <h1 className="coinText"> {coinName}</h1>
+              <p className="coinText_coin">
                 {" "}
-                {coinName} <span>{coin}</span>
-              </h1>
+                <span>{coin}</span>
+              </p>
               <p>{coinText}</p>
               <button
                 className={`${
@@ -57,6 +67,12 @@ function CryptoActive(props) {
                   </svg>
                 </div>
               </button>
+              <br />
+              <img
+                src={contactAddressLogo.src}
+                alt="contactAddressLogo"
+                className="contactAddressLogo"
+              />
             </aside>
           );
 				})}

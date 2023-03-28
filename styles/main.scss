@@ -6,6 +6,10 @@
 /* landingpage banner */
 .rowx {
   display: table;
+  width: 100%;
+}
+.navbar-brand img{
+  border-radius: 50%;
 }
 .subscribe-btn a {
   color: black;
@@ -18,7 +22,8 @@
 .col50 {
   width: 49.98%;
   float: left;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .col40 {
   width: 39.98%;
@@ -280,6 +285,13 @@ svg {
 }
 
 /*why choose us*/
+.why_greate_dane_p {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.4em !important;
+}
 .choose-Img img {
   width: 90%;
 }
@@ -415,6 +427,10 @@ svg {
   margin-left: 2em;
   margin-right: 2em;
 }
+//why_us
+.why_us p{
+  font-size: 1.3em;
+}
 
 //250012
 
@@ -434,6 +450,14 @@ svg {
   -webkit-box-shadow: -1px 28px 45px -15px rgba(0, 0, 0, 0.33);
   -moz-box-shadow: -1px 28px 45px -15px rgba(0, 0, 0, 0.33);
 }
+.form_header{
+  font-size: 2em;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  color: #ff007b;
+}
 
 .ESTIMATED {
   padding-top: 3em;
@@ -451,12 +475,21 @@ svg {
 }
 
 .ESTIMATED h1 a {
-  text-decoration: underline;
+  text-decoration: none;
+  color: yellow;
 }
 .ESTIMATED h1 span {
   color: #ffffff;
 }
 @media screen and (max-width: 1193px) {
+  .form_header{
+  font-size: 1.4em;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  color: #ff007b;
+}
   .select-option {
     width: 100%;
     margin-left: 0;
@@ -529,7 +562,7 @@ svg {
   margin: auto;
   color: white;
   text-align: center;
-  padding-top: 5.5em;
+  padding-top: 15.5em;
   padding-bottom: 2.5em;
 }
 .button {
@@ -554,11 +587,15 @@ svg {
 .activeclass p {
   padding: 0.6em 0;
 }
+.coinText_coin{
+  padding-bottom: 0.2em !important;
+  margin-bottom: 0.3em !important;
+}
 
 .coinText span {
   font-weight: normal;
-  font-size: 0.3em;
-  color: gray;
+  font-size: 0.8em;
+  color: rgb(173, 173, 173);
   position: absolute;
   top: 1em;
   padding-left: 0.6em;
@@ -620,6 +657,10 @@ svg {
   padding-right: 3.3em;
   margin: auto;
 }
+.contactAddressLogo{
+  margin-top: 1em;
+  width: 50px;
+}
 
 .mining-btn .icon {
   margin-right: 0.3em;
@@ -649,7 +690,7 @@ svg {
   .CryptoActive header {
     width: 80%;
     font-size: 2em;
-    padding-top: 4em;
+    padding-top: 30em;
     padding-bottom: 1.5em;
     text-align: center;
   }
@@ -676,7 +717,7 @@ svg {
 @media screen and (max-width: 533px) {
   .CryptoActive header {
     width: 95%;
-    padding-top: 2em;
+    padding-top: 31em;
     font-size: 1.6em;
   }
 }
@@ -702,6 +743,9 @@ svg {
 /*sentiments*/
 .sentiments {
   background-color: #250012;
+}
+.CryptoActive img {
+  border-radius: 50%;
 }
 
 .market {
@@ -754,6 +798,7 @@ svg {
 /*Grow*/
 .grow-img img {
   width: 100%;
+  border-radius: 50%;
 }
 .grow-bg {
   position: relative;
@@ -905,6 +950,10 @@ svg {
   margin-bottom: 6em;
 }
 /*footer img*/
+
+footer img{
+  border-radius: 50%;
+}
 .subscribe-bg {
 }
 .line-img {
@@ -978,7 +1027,7 @@ svg {
 
 .deneb_footer .widget_wrapper .widegt_about .social li {
   display: inline-block;
-  margin-right: 10px;
+  margin: 10px;
 }
 .deneb_footer .widget_wrapper .widegt_about .social li a img {
   width: 2em;
@@ -991,7 +1040,7 @@ svg {
   text-align: center;
   border-radius: 0.5em;
   padding: 0.5em 1em;
-  background-color: #ffffff33;
+  background-color: #b00055;
   color: #fbfbfb;
   font-size: 14px;
   -webkit-transition: all all 0.5s ease-out 0s;

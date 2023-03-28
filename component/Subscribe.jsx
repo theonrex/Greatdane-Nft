@@ -11,6 +11,7 @@ function Subscribe() {
       data-aos="zoom-in"
       data-aos-easing="linear"
       data-aos-duration="1800"
+      id="Contact"
     >
       <section className="deneb_cta">
         <div className="container">
@@ -30,18 +31,18 @@ function Subscribe() {
               </div>{" "}
               <div className="col-lg-6">
                 <div className="cta_content">
-                  <input
+                  {/* <input
                     type="email"
                     name="email"
                     placeholder="Enter your email"
-                  />
+                  /> */}
                 </div>
               </div>
               <div className="col-lg-2">
                 <div className="button_box">
                   <button className="subscribe-btn">
-                    <a href="#" className="">
-                      Subscribe
+                    <a href="/https://greatdaneai.com/" className="">
+                      Great Ai
                     </a>
                   </button>
                 </div>

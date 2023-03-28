@@ -10,9 +10,13 @@ function NavbarMenu() {
     <>
       <nav className="navbar navbar-expand-lg   mb-4 " id="navbar">
         <div className="container-fluid container">
-          <a className="navbar-brand" href="/#">
+          <a className="navbar-brand nav-link " href="/#">
             {" "}
-            <img src={Logo.src} alt="logo" className="nav-logo" />
+            <img
+              src="https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-domaincom-v1-0-4%2F534%2F1595534%2FjmELUeuX%2F06ec3d12169648028718746bc4d83b5d&methods=resize%2C500%2C5000"
+              alt="logo"
+              className="nav-logo"
+            />
           </a>
           <button
             className="navbar-toggler bg-light"
@@ -34,9 +38,7 @@ function NavbarMenu() {
             aria-labelledby="offcanvasNavbarExample-expand-lg"
           >
             <div className="offcanvas-header">
-              <h5 className="offcanvas-title" id="offcanvasLabel">
-                Crappo
-              </h5>
+              <h5 className="offcanvas-title" id="offcanvasLabel"></h5>
               <button
                 type="button"
                 className="btn-close btn-close-white text-reset"
@@ -47,28 +49,23 @@ function NavbarMenu() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="/#">
+                  <a className="nav-link" aria-current="page" href="#products">
                     Products
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/#">
-                    Features
+                    Road Map
                   </a>
                 </li>{" "}
                 <li className="nav-item">
-                  <a className="nav-link" href="/#">
+                  <a className="nav-link" href="/whyus">
                     About
                   </a>
                 </li>{" "}
                 <li className="nav-item">
-                  <a className="nav-link" href="/#">
+                  <a className="nav-link" href="#Contact">
                     Contact
-                  </a>
-                </li>{" "}
-                <li className="nav-item">
-                  <a className="nav-link" href="/#">
-                    Login
                   </a>
                 </li>{" "}
                 <li className="nav-item vertical-line"></li>

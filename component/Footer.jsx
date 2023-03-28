@@ -1,8 +1,9 @@
 import React from "react";
 import Subscribe from "./Subscribe";
-import ethereum from "../public/images/ethereum-eth-logo.png";
-import Bitcoin from "../public/images/logos_bitcoin.png";
+import metanft from "../public/images/metanft copy.png";
+import DPolygon from "../public/images/polygon.png";
 import Logo from "../public/images/greatenft copy.png";
+
 
 function Footer() {
   return (
@@ -75,12 +76,26 @@ function Footer() {
                     <ul className="social">
                       <li>
                         <a href="#">
-                          <img src={ethereum.src} alt="" />
+                          <img src={metanft.src} alt="" />
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#">
+                          <img src={Logo.src} alt="" />
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <img src={Bitcoin.src} alt="" />
+                          <img src={DPolygon.src} alt="" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img
+                            src="https://s1.coincarp.com/logo/1/wrappedbnb.png?style=200&v=1658909577"
+                            alt=""
+                          />
                         </a>
                       </li>
                     </ul>

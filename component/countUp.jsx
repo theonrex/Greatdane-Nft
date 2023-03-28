@@ -127,7 +127,7 @@ function CountUpp() {
 				</aside>
 				<aside className="col80">
 					<h1>
-						$<span id="thirdCounter" />
+						<span id="thirdCounter" />
 					</h1>
 					<p>Countries Supported</p>
 				</aside>

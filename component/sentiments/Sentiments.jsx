@@ -5,14 +5,12 @@ import Statistics from './Statistics'
 
 function Sentiments() {
   return (
-    <div className=' '>
-        <Market/>
-        <Statistics/>
-        <Grow/>
-
-
+    <div className="Sentiments ">
+      <Market />
+      <Statistics />
+      <Grow />
     </div>
-  )
+  );
 }
 
 export default Sentiments
