@@ -10,7 +10,7 @@ function CryptoActive(props) {
 		<div className=" CryptoActive">
 			<header>
 				{" "}
-				Trade securely and market the high growth cryptocurrencies.{" "}
+				Trade securely and market the high growth NFTs.{" "}
 			</header>
 			<div
 				className="rowx active-row  container"
