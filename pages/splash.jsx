@@ -12,11 +12,12 @@ export default function Splash() {
         />
       </div>
       <div className={styles.text_container}>
-        <h1 className={styles.animated_text}>Welcome</h1>
+        <h1 className={styles.animated_text_h1}>Welcome</h1>
       </div>
       <p className={styles.animated_text}>
-        Thank you for visiting! We're excited to share our products and services
-        with you.
+        “Thank you for visiting Great Dane AI: We are much more than dogs! We
+        are the space exploration, flowers year round, soldiers, best friends,
+        citizens and much more NFT and DAPP Market Place…”
       </p>
     </div>
   );

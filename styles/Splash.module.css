@@ -8,10 +8,10 @@
 }
 
 
-.loading_img{
+.loading_img {
   width: 10%;
   border-radius: 50%;
-    width: 100px;
+  width: 100px;
   height: 100px;
   animation-name: rotate;
   animation-duration: 2s;
@@ -43,6 +43,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -63,14 +64,34 @@
   animation-duration: 22s;
   animation-fill-mode: forwards;
   animation-delay: 0.1s;
+  width: 60%;
+  margin: 3px auto;
+  text-align: center;
 }
+
+.animated_text_h1 {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 
 @keyframes fade-in {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
 
+
+@media screen and (max-width: 700px) {
+  .animated_text {
+
+    width: 90%;
+  }
+
+
+}
