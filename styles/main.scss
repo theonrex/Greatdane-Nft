@@ -22,8 +22,7 @@
 .col50 {
   width: 49.98%;
   float: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 .col40 {
   width: 39.98%;
@@ -462,6 +461,12 @@ svg {
 .ESTIMATED {
   padding-top: 3em;
 }
+.ESTIMATED svg{
+  fill: white !important;
+  padding-left: 0.1em;
+  font-size: 0.7em;
+}
+
 .ESTIMATED header {
   padding-top: 1em;
   color: #ffffff;
@@ -1221,6 +1226,7 @@ footer img{
   position: relative;
   height: 2.8em;
   padding-right: 1.2em;
+  width: 100%;
 }
 
 .subscribe-btn:hover {

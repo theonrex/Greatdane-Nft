@@ -13,7 +13,7 @@ function Grow() {
 						data-aos-easing="linear"
 						data-aos-duration="1500"
 					>
-						<header> Buy rear Nfts securely</header>
+						<header> Buy real Nfts securely</header>
 						<p>
 							Use advanced minting tools to
 							mint the best NFTs on our platform.

@@ -3,30 +3,13 @@ import { useState } from "react";
 // import { useForm } from "react-hook-form";
 import CryptoData from "../Props/crypto";
 import CryptoActive from "./CryptoActive";
+import { AiOutlineLink } from "react-icons/ai";
 
 function Earn() {
-  //form
-  // const { register, handleSubmit } = useForm();
-  const [data, setData] = useState("");
+  //
 
   return (
     <div className="earn" id="products">
-      <header
-        className="earn-header"
-        data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-duration="3000"
-      >
-        Check how much you can earn
-      </header>
-      <p
-        className="earn-rate"
-        data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-duration="3000"
-      >
-        Is this item real, do you have such a calculator available?
-      </p>
       <div
         className="earn-form"
         data-aos="zoom-in"
@@ -40,7 +23,7 @@ function Earn() {
           <div className="rowx">
             <div className="col50">
               <div className="ESTIMATED">
-                <header>Alph Collection</header>
+                <header>Alpha Collection</header>
                 <h1>
                   <a
                     href="http://Greatdaneai.com"
@@ -48,6 +31,7 @@ function Earn() {
                     rel="noopener noreferrer"
                   >
                     Greatdaneai.com
+                    <AiOutlineLink />
                   </a>{" "}
                 </h1>
                 <h1>
@@ -57,6 +41,7 @@ function Earn() {
                     rel="noopener noreferrer"
                   >
                     Stake.greatdaneai.com
+                    <AiOutlineLink />
                   </a>{" "}
                 </h1>
               </div>{" "}
@@ -69,6 +54,7 @@ function Earn() {
                     rel="noopener noreferrer"
                   >
                     Beta.greattdaneai.com
+                    <AiOutlineLink />
                   </a>{" "}
                 </h1>
                 <h1>
@@ -78,6 +64,7 @@ function Earn() {
                     rel="noopener noreferrer"
                   >
                     Bstake.greatdaneai.com
+                    <AiOutlineLink />
                   </a>{" "}
                 </h1>
               </div>
@@ -92,6 +79,7 @@ function Earn() {
                     rel="noopener noreferrer"
                   >
                     Bat.greatdaneai.com
+                    <AiOutlineLink />
                   </a>{" "}
                 </h1>
                 <h1>
@@ -101,6 +89,7 @@ function Earn() {
                     rel="noopener noreferrer"
                   >
                     Bbat.greatdaneai.com
+                    <AiOutlineLink />
                   </a>{" "}
                 </h1>
               </div>{" "}
@@ -113,6 +102,7 @@ function Earn() {
                     rel="noopener noreferrer"
                   >
                     Flower.greatdaneai.com
+                    <AiOutlineLink />
                   </a>{" "}
                 </h1>
                 <h1>
@@ -122,6 +112,7 @@ function Earn() {
                     rel="noopener noreferrer"
                   >
                     Bflower.greatdaneai.com
+                    <AiOutlineLink />
                   </a>{" "}
                 </h1>
               </div>
@@ -136,6 +127,7 @@ function Earn() {
                 rel="noopener noreferrer"
               >
                 Meta.greatdanai.com
+                <AiOutlineLink />
               </a>{" "}
             </h1>
             <h1>
@@ -145,6 +137,7 @@ function Earn() {
                 rel="noopener noreferrer"
               >
                 Bmeta.greatdaneai.com
+                <AiOutlineLink />
               </a>{" "}
             </h1>
           </div>

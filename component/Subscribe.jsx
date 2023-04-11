@@ -29,7 +29,7 @@ function Subscribe() {
                   </p>
                 </div>
               </div>{" "}
-              <div className="col-lg-6">
+              <div className="col-lg-2">
                 <div className="cta_content">
                   {/* <input
                     type="email"
@@ -38,7 +38,7 @@ function Subscribe() {
                   /> */}
                 </div>
               </div>
-              <div className="col-lg-2">
+              <div className="col-lg-6">
                 <div className="button_box">
                   <button className="subscribe-btn">
                     <a

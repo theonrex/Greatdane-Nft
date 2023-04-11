@@ -1,5 +1,5 @@
-import React from 'react'
-import dogggnft from '../public/images/dogggnft.jpeg'
+import React from "react";
+import dogggnft from "../public/images/dogggnft.jpeg";
 function LandingPage() {
   return (
     <div className="container">
@@ -31,10 +31,11 @@ function LandingPage() {
           <p className="landing-p" data-aos="fade-up" data-aos-duration="3000">
             Find and mint stunning artificially intelligent generated NFTS
             trusted by 10 million wallets with over $3 million in transactions
+            on the safe mint platform.
           </p>
-<hr />          <p>
-            What does the triad for free button do, can the try it for free
-            button give them a free membership card?
+          <hr />{" "}
+          <p>
+           Free Membership Card!
           </p>
           <button
             className="landing-btn"
@@ -78,4 +79,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage
+export default LandingPage;
