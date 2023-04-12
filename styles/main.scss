@@ -284,12 +284,19 @@ svg {
 }
 
 /*why choose us*/
-.why_greate_dane_p {
+.choose p {
+  margin-bottom: 1.5em;
+  width: 70%;
+}
+
+.choose .why_greate_dane_p {
   font-style: italic;
   font-weight: 600;
   font-size: 1.5em;
   padding-bottom: 0.5em;
   margin-bottom: 0.4em !important;
+  width: 80%;
+  text-transform: capitalize;
 }
 .choose-Img img {
   width: 90%;
@@ -302,10 +309,7 @@ svg {
   font-weight: 600;
   margin-bottom: 0.5em;
 }
-.choose p {
-  margin-bottom: 1.5em;
-  width: 60%;
-}
+
 .why-Btn {
   background: #b00055;
   color: white;

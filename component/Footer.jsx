@@ -3,6 +3,7 @@ import Subscribe from "./Subscribe";
 import metanft from "../public/images/metanft copy.png";
 import DPolygon from "../public/images/polygon.png";
 import Logo from "../public/images/greatenft copy.png";
+import EthLogo from "../public/images/eth.png";
 
 function Footer() {
   return (
@@ -61,26 +62,13 @@ function Footer() {
                     <ul className="social">
                       <li>
                         <a href="#">
-                          <img src={metanft.src} alt="" />
+                          <img src={EthLogo.src} alt="" />
                         </a>
                       </li>
 
                       <li>
                         <a href="#">
-                          <img src={Logo.src} alt="" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
                           <img src={DPolygon.src} alt="" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            src="https://s1.coincarp.com/logo/1/wrappedbnb.png?style=200&v=1658909577"
-                            alt=""
-                          />
                         </a>
                       </li>
                     </ul>
@@ -98,11 +86,6 @@ function Footer() {
                   <p>©2023 GREAT DANE. All rights reserved</p>
                 </div>{" "}
                 <div className="copyright_text_icons">
-                  <i className="bi bi-facebook"></i>
-                  <i className="bi bi-instagram"></i>
-                  <i className="bi bi-youtube"></i>
-                  <i className="bi bi-twitter"></i>
-                  <i className="bi bi-linkedin"></i>
                 </div>
               </div>
             </div>
