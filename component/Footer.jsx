@@ -4,7 +4,6 @@ import metanft from "../public/images/metanft copy.png";
 import DPolygon from "../public/images/polygon.png";
 import Logo from "../public/images/greatenft copy.png";
 
-
 function Footer() {
   return (
     <div>
@@ -29,17 +28,9 @@ function Footer() {
                   </div>
                   <ul>
                     <li>
-                      <a href="#"> Home </a>
+                      <a href="/"> Home </a>
                     </li>
-                    <li>
-                      <a href="#"> Products</a>
-                    </li>
-                    <li>
-                      <a href="#"> About </a>
-                    </li>
-                    <li>
-                      <a href="#"> Features </a>
-                    </li>{" "}
+
                     <li>
                       <a href="#"> Contact </a>
                     </li>
@@ -58,12 +49,6 @@ function Footer() {
                     <li>
                       <a href="#">Smart Contact</a>
                     </li>
-                    <li>
-                      <a href="#"> Blockchain Explore </a>
-                    </li>
-                    <li>
-                      <a href="#"> Crypto Api</a>
-                    </li>{" "}
                   </ul>
                 </div>
               </div>
