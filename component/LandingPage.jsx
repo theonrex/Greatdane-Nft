@@ -34,7 +34,11 @@ function LandingPage() {
             trusted by 10 million wallets with over $3 million in transactions
             on the safe mint platform.
           </p>
-          <hr /> <p>Free Membership Card!</p>
+          <hr />{" "}
+          <p>
+            3D
+            <span> Puppy</span> Great AI Membership NFT for only 002 eth
+          </p>
           <button
             className="landing-btn"
             data-aos="fade-up"

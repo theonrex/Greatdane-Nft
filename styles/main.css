@@ -20,6 +20,11 @@
   position: relative;
 }
 
+.landing-page p span {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
 .col50 {
   width: 49.98%;
   float: left;
