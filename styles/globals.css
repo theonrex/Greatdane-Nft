@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 html,
 body {
   color: white;
-background: rgb(37,0,18);
-  font-family: Titillium Web, sans-serif !important;
+  background: rgb(37, 0, 18);
+  font-family: 'Titillium Web', sans-serif;
 }
 
 a {
@@ -22,6 +24,7 @@ ul {
 * {
   box-sizing: border-box;
 }
+
 form {
   width: 100%;
   padding-top: 2em;
@@ -73,6 +76,7 @@ select:focus {
   border-color: #f40a0a2e;
 
 }
+
 ul {
   display: block;
   list-style-type: disc;
@@ -86,4 +90,3 @@ ul {
 li {
   list-style: none;
 }
-

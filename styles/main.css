@@ -384,9 +384,27 @@ svg {
   }
 }
 /*Earn*/
+.earn {
+  background-color: rgb(23, 3, 13);
+  width: 100%;
+  display: inline-block;
+}
+
+.Sentiments {
+  display: inline-block;
+  width: 100%;
+}
+
+.earn_bg {
+  background-color: rgb(23, 3, 13);
+  display: inline-block;
+  width: 100%;
+  margin-top: 10em;
+}
+
 .form-section {
-  position: absolute;
-  top: -3em;
+  position: relative;
+  top: -7em;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -412,7 +430,6 @@ svg {
 .crypto-width {
   width: 100%;
   display: block;
-  padding-top: 16em;
   padding-bottom: 11em;
   background: rgb(23, 3, 13);
 }
@@ -596,7 +613,7 @@ svg {
   margin: auto;
   color: white;
   text-align: center;
-  padding-top: 15.5em;
+  padding-top: 3.5em;
   padding-bottom: 2.5em;
 }
 
@@ -733,7 +750,6 @@ svg {
   .CryptoActive header {
     width: 80%;
     font-size: 2em;
-    padding-top: 30em;
     padding-bottom: 1.5em;
     text-align: center;
   }
@@ -757,25 +773,17 @@ svg {
 @media screen and (max-width: 533px) {
   .CryptoActive header {
     width: 95%;
-    padding-top: 31em;
     font-size: 1.6em;
   }
 }
 @media screen and (max-width: 410px) {
   .CryptoActive header {
     width: 96%;
-    padding-top: 30em;
   }
 }
 @media screen and (max-width: 325px) {
   .CryptoActive header {
     width: 100%;
-    padding-top: 31em;
-  }
-}
-@media screen and (max-width: 358px) {
-  .CryptoActive header {
-    padding-top: 32em;
   }
 }
 /*sentiments*/

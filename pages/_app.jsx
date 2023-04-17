@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import  { AppProps } from "next/app";
+import { AppProps } from "next/app";
 //css styles
 
 // import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,7 +17,7 @@ import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { configureChains, createClient, WagmiConfig } from "wagmi";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
 import { publicProvider } from "wagmi/providers/public";
-import Layout from "../Layout/layout"
+import Layout from "../Layout/layout";
 const mumbaiChain = {
   id: 80001,
   name: "  Mumbai ",

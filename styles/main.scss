@@ -8,7 +8,7 @@
   display: table;
   width: 100%;
 }
-.navbar-brand img{
+.navbar-brand img {
   border-radius: 50%;
 }
 .subscribe-btn a {
@@ -18,7 +18,7 @@
   margin-top: 5em;
   position: relative;
 }
-.landing-page p span{
+.landing-page p span {
   font-size: 1em;
   text-transform: uppercase;
 }
@@ -368,9 +368,24 @@ svg {
   }
 }
 /*Earn*/
+.earn {
+  background-color: rgb(23, 3, 13);
+  width: 100%;
+  display: inline-block;
+}
+.Sentiments {
+  display: inline-block;
+  width: 100%;
+}
+.earn_bg {
+  background-color: rgb(23, 3, 13);
+  display: inline-block;
+  width: 100%;
+  margin-top: 10em;
+}
 .form-section {
-  position: absolute;
-  top: -3em;
+  position: relative;
+  top: -7em;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -397,7 +412,7 @@ svg {
 .crypto-width {
   width: 100%;
   display: block;
-  padding-top: 16em;
+  // padding-top: 16em;
   padding-bottom: 11em;
   background: rgb(23, 3, 13);
 }
@@ -435,7 +450,7 @@ svg {
   margin-right: 2em;
 }
 //why_us
-.why_us p{
+.why_us p {
   font-size: 1.3em;
 }
 
@@ -457,7 +472,7 @@ svg {
   -webkit-box-shadow: -1px 28px 45px -15px rgba(0, 0, 0, 0.33);
   -moz-box-shadow: -1px 28px 45px -15px rgba(0, 0, 0, 0.33);
 }
-.form_header{
+.form_header {
   font-size: 2em;
   width: 60%;
   text-align: center;
@@ -469,7 +484,7 @@ svg {
 .ESTIMATED {
   padding-top: 3em;
 }
-.ESTIMATED svg{
+.ESTIMATED svg {
   fill: white !important;
   padding-left: 0.1em;
   font-size: 0.7em;
@@ -495,14 +510,14 @@ svg {
   color: #ffffff;
 }
 @media screen and (max-width: 1193px) {
-  .form_header{
-  font-size: 1.4em;
-  width: 100%;
-  text-align: center;
-  margin: auto;
-  font-weight: 600;
-  color: #ff007b;
-}
+  .form_header {
+    font-size: 1.4em;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    color: #ff007b;
+  }
   .select-option {
     width: 100%;
     margin-left: 0;
@@ -575,7 +590,7 @@ svg {
   margin: auto;
   color: white;
   text-align: center;
-  padding-top: 15.5em;
+  padding-top: 3.5em;
   padding-bottom: 2.5em;
 }
 .button {
@@ -600,7 +615,7 @@ svg {
 .activeclass p {
   padding: 0.6em 0;
 }
-.coinText_coin{
+.coinText_coin {
   padding-bottom: 0.2em !important;
   margin-bottom: 0.3em !important;
 }
@@ -670,7 +685,7 @@ svg {
   padding-right: 3.3em;
   margin: auto;
 }
-.contactAddressLogo{
+.contactAddressLogo {
   margin-top: 1em;
   width: 50px;
 }
@@ -703,7 +718,6 @@ svg {
   .CryptoActive header {
     width: 80%;
     font-size: 2em;
-    padding-top: 30em;
     padding-bottom: 1.5em;
     text-align: center;
   }
@@ -730,7 +744,6 @@ svg {
 @media screen and (max-width: 533px) {
   .CryptoActive header {
     width: 95%;
-    padding-top: 31em;
     font-size: 1.6em;
   }
 }
@@ -738,18 +751,11 @@ svg {
 @media screen and (max-width: 410px) {
   .CryptoActive header {
     width: 96%;
-    padding-top: 30em;
   }
 }
 @media screen and (max-width: 325px) {
   .CryptoActive header {
     width: 100%;
-    padding-top: 31em;
-  }
-}
-@media screen and (max-width: 358px) {
-  .CryptoActive header {
-    padding-top: 32em;
   }
 }
 
@@ -964,7 +970,7 @@ svg {
 }
 /*footer img*/
 
-footer img{
+footer img {
   border-radius: 50%;
 }
 .subscribe-bg {

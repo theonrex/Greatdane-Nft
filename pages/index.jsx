@@ -27,13 +27,11 @@ export default function Home() {
 
   return (
     <div>
-     
       {loading ? (
         <Splash />
       ) : (
         <>
           <LandingPage />
-
           <CountUpp />
           <WhyChoose />
           <Earn />
